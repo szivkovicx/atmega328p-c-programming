@@ -1,6 +1,6 @@
 # Programming ATMEGA328P with C
 
-This simple repo showcases a simple and minimalistic environment for development of ATMEGA328P microcontrollers. 
+This simple repo showcases a simple and minimal environment for development of ATMEGA328P microcontrollers. 
 
 It features simple `Makefile` that compiles and builds `main.c` from `src` and uploads it to connected ATMEGA328P. `Makefile` compiles C file to elf, then converts elf to hex and uploads it via USB-TTL module directly to the board via TX/RX pins ( Bootloader required ). 
 
